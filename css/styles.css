@@ -1,0 +1,371 @@
+body{
+		font-family: sans-serif;
+		margin-left:150px;
+        margin-right:150px;
+        
+        
+}
+a{
+	text-decoration:none;
+}
+
+h2{
+	color: red;
+	
+	margin: 0px;
+	border:1.5px solid white;
+}
+h3{
+	padding: 2px;
+	margin: 0px;
+	float: left;
+	width: 20px;
+	margin: 5px;
+}
+h1{
+	font-size: 40px;
+}
+p{
+	padding: 10px 5px 5px;
+	float: left;
+	width: 90%;
+}
+article{
+	float: left;
+	
+
+}
+#modal{
+	display: block;
+}
+.modal{
+	position: fixed;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border:1px solid red;
+	border-radius:5%; 
+	z-index: 10;
+	background: rgb(227, 227, 227);
+	width: 450px;
+	padding: 50px;
+	font-size: 25px;
+
+}
+.redb{
+	background-color: red;
+	color: white;
+	font-size: 20px;
+	border:1px solid white;
+}
+#popular{
+	display: block;
+}
+#recent{
+	display: none;
+}
+#updated{
+	display: none;
+}
+.socialbar{
+	float: left;
+	background-repeat: no-repeat;
+	width:50px;
+	height: 150px;
+}
+.font1{
+	font-size: 30px;
+	color: grey;
+	padding-bottom: 15px;
+	border-bottom: 1.5px solid grey;
+}
+.story{
+	margin-left:160px;
+	margin-right:160px;
+}
+.end{
+ 	padding: 15px;
+ 	color: white;
+}
+.text{
+	font-weight: bold;
+
+}
+#circle{
+	text-align: center;
+	font-weight: bold;
+	float: right;
+	background-color: white;
+	height: 20px;
+	width: 20px;
+	border:7px solid red;
+	padding: 2px;
+	border-radius: 50%;
+}
+.bottom{
+	float: left;
+	width: 111%;
+	position: relative;
+	left: -150px;
+	padding-left:150px;
+	background-color: #282b2e;
+	height: 300px;
+	clear: both;
+}
+.box2{
+	float: left;
+	height: 200px;
+	width: 20%;
+	
+}
+.left{
+	
+	float: left;
+	width: 50%;
+}
+.right{
+	float: right;
+	width: 33%;
+	margin:0px; 
+}
+.tittle{
+	color: red;
+	font-weight: bold;
+	text-align: justify;
+	padding-bottom: 10px;
+}
+.dark{	
+filter: brightness(100%);
+}
+.dark:hover{
+	filter: brightness(50%);	
+}
+.caption{
+	text-decoration: none;
+	color: black;
+	position: relative;
+	top: 170px;
+}
+.topmenu{
+	padding: 10px;
+	min-width: 975px; 
+}
+.row{
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.columns{
+}
+.minibar{
+	border-top:1.5px solid grey;
+	border-bottom:1.5px solid grey;
+	padding:15px 0px 15px;
+	width: 100%;
+	height: auto;
+
+}
+.minibar2{
+	border-top:1.5px solid grey;
+	border-bottom:1.5px solid grey;
+	padding:15px 0px 15px;
+	width: 100%;
+	height: 90px;
+}
+/*images*/
+#tnail1{
+  	background-image: url(../images/ps.jpg);
+	background-repeat: no-repeat;
+	height: 400px;
+	width: 100%;
+	margin:0px 15px 0px;
+	max-width:750px;
+	position: center;
+	background-size: cover;
+
+}
+#tnail2{
+  	background-image: url(../images/walmart.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin:0px 15px 0px;
+	height: 400px;
+	width: 100%;
+	max-width: 450px;
+	position: center;
+	background-size: cover;
+}
+.smtnail{
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin:0px 15px 0px;
+	height:210px;
+	width: 100%;
+	max-width: 295px;
+	position: center;
+	background-size: contain;
+}
+.xstnail{
+	clear: both;
+	float: right;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 100px;
+	width: 150px;
+
+}
+
+#tnail3{
+  	background-image: url(../images/Zelds.jpg);
+}
+#tnail4{
+  	background-image: url(../images/radeon.jpg);
+}
+#tnail5{
+  	background-image: url(../images/blackpanther.jpg);
+}
+#tnail6{
+  	background-image: url(../images/twitch.jpg);
+}
+#tnail7{
+  	background-image: url(../images/bundle.jpg);
+}
+#tnail8{
+  	background-image: url(../images/controller.jpg);
+}
+#tnail9{
+  	background-image: url(../images/psn.jpg);
+}
+#tnail10{
+  	background-image: url(../images/spider.jpg);
+}
+#tnail11{
+  	background-image: url(../images/ps5t.jpg);
+
+}
+#tnail12{
+  	background-image: url(../images/dialsense.jpg);
+}
+#tnail13{
+  	background-image: url(../images/car.jpg);
+}
+#tnail14{
+  	background-image: url(../images/cyber.jpg);
+}
+#tnail15{
+  	background-image: url(../images/car.jpg);
+  	height: 40px
+}
+#tnail16{
+	background-image: url(../images/recent1.jpg);
+}
+#tnail17{
+	background-image: url(../images/recent2.jpg);
+}
+#tnail18{
+	background-image: url(../images/recent3.jpg);
+}
+#tnail19{
+	background-image: url(../images/recent4.jpg);
+}
+#tnail20{
+	background-image: url(../images/recent1.jpg);
+}
+#tnail21{
+	background-image: url(../images/updated2.jpg);
+}
+#tnail22{
+	background-image: url(../images/updated3.jpg);
+}
+#tnail23{
+	background-image: url(../images/updated4.jpg);
+}
+#logo{
+	float: left;
+	margin-right:35px;
+	background-image: url(../images/gsLogo.jpg);
+	background-repeat: no-repeat;
+	position: relative;
+	bottom: 9px; 
+	height: 45px;
+	width: 125px;
+}
+#social{
+	background-image: url(../images/social.jpg);
+}
+#video{
+	clear: both;
+	background-image: url(../images/video.jpg);
+	background-repeat:no-repeat;
+	position: relative;
+	height: 340px;
+	width: 100%;
+	left: 25%;
+
+	
+  }
+
+#search{
+	margin-left: 15px;
+	float: right;
+	background-image: url(../images/mag.jpg);
+	background-repeat: no-repeat;
+	position: relative;
+	height: 25px;
+	width: 50px;
+	border-left: 1.5px solid grey; 
+}
+/*links*/
+
+.quicklinks{
+	font-size: 10px;
+	padding:23px 0px 23px;  
+	border-bottom: 1.5px solid grey;
+	min-width: 900px;
+}
+
+.links{
+	text-decoration: none;
+	color: grey;
+	padding-right: 10px;
+	border-right: 1.5px solid grey;
+}
+.links2{ 
+	text-decoration: none;
+	background-color:white;
+	font-size: 13px; 
+	color: black;
+	padding-right: 14px;
+	padding-bottom: 10px;
+	border: 2px solid white;
+}
+.links2:hover{
+	color: red;
+	border-bottom: 2px solid red;
+}
+.links3{ 
+	text-decoration: none;
+	float: right;
+	font-size: 14px; 
+	color: black;
+	padding-bottom: 10px;
+	position: relative;
+}
+.links3:hover{ 
+	color: red;
+}
+.link4{
+	color: red;
+
+}
+
+@media(max-width:1022px){
+	#logo{
+	margin-left: 20px;
+	background-image: url(../images/gssmalllogo.jpg);
+	height: 34px;
+	width: 125px;
+	overflow: hidden;
+	}
+}
